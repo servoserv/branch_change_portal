@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Admin Portal</h1>
+  
+  <h2>Student Details</h2>
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Roll No.</th>
+        <th>Name</th>
+        <th>CGPA</th>
+        <th>JEE Rank</th>
+        <th>Category</th>
+        <th>Preference 1</th>
+        <th>Preference 2</th>
+        <th>Preference 3</th>
+        <th>Allocated Branch</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Student data will be populated here -->
+    </tbody>
+  </table>
+  
+  <h2>Vacancy Table</h2>
+  <table id="vacancyTable">
+    <thead>
+      <tr>
+        <th>Branch Name</th>
+        <th>Open</th>
+        <th>OPEN-PWD</th>
+        <th>EWS</th>
+        <th>EWS-PWD</th>
+        <th>SC</th>
+        <th>SC-PWD</th>
+        <th>ST</th>
+        <th>ST-PWD</th>
+        <th>OBC-NCL</th>
+        <th>OBC-NCL-PWD</th>
+        <th>Action</th>
+      </tr>
+
+    </thead>
+    
+    <tbody>
+      <!-- Vacancy data will be populated here -->
+       <tr>
+        <td>Branch Name</td>
+        <td>Open</td>
+        <td>OPEN-PWD</td>
+        <td>EWS</td>
+        <td>EWS-PWD</td>
+        <td>SC</td>
+        <td>SC-PWD</td>
+        <td>ST</td>
+        <td>ST-PWD</td>
+        <td>OBC-NCL</td>
+        <td>OBC-NCL-PWD</td>
+        <td>Action</td>
+       </tr>
+    </tbody>
+  </table>
+  
+  <button onclick="publishResults()">Publish Results</button>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>

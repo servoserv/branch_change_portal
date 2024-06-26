@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore environment files
+.env
+
+# Ignore node_modules in specific locations
+backend/models/node_modules/
+frontend/node_modules/
+
+# Ignore package.json and package-lock.json in specific locations
+backend/package.json
+backend/package-lock.json
+frontend/package.json
+frontend/package-lock.json

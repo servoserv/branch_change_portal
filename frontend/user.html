@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>User Branch Change Form</h1>
+  <form id="branchChangeForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="rollNo">Roll No:</label>
+    <input type="text" id="rollNo" name="rollNo" required>
+    
+    <label for="jeeRank">JEE Rank:</label>
+    <input type="number" id="jeeRank" name="jeeRank" required>
+    
+    <label for="category">Category:</label>
+    <select id="category" name="category" required>
+      <option value="open">Open</option>
+      <option value="openPwd">Open-PWD</option>
+      <option value="ews">EWS</option>
+      <option value="ewsPwd">EWS-PWD</option>
+      <option value="sc">SC</option>
+      <option value="scPwd">SC-PWD</option>
+      <option value="st">ST</option>
+      <option value="stPwd">ST-PWD</option>
+      <option value="obcNcl">OBC-NCL</option>
+      <option value="obcNclPwd">OBC-NCL-PWD</option>
+    </select>
+    
+    <label for="cgpa">CGPA:</label>
+    <input type="number" step="0.01" id="cgpa" name="cgpa" required>
+    
+    <label for="preference1">Preference 1:</label>
+    <select id="preference1" name="preference1" required>
+      <option value="Aerospace Engineering">Aerospace Engineering</option>
+      <option value="Civil Engineering">Civil Engineering</option>
+      <option value="Computer Science and Technology">Computer Science and Technology</option>
+      <option value="Electrical Engineering">Electrical Engineering</option>
+      <option value="Electronics and Telecommunication Engineering">Electronics and Telecommunication Engineering</option>
+      <option value="Information Technology">Information Technology</option>
+      <option value="Mechanical Engineering">Mechanical Engineering</option>
+      <option value="Metallurgy and Materials Engineering">Metallurgy and Materials Engineering</option>
+      <option value="Mining Engineering">Mining Engineering</option>
+    </select>
+    
+    <label for="preference2">Preference 2:</label>
+    <select id="preference2" name="preference2" required>
+      <option value="Aerospace Engineering">Aerospace Engineering</option>
+      <option value="Civil Engineering">Civil Engineering</option>
+      <option value="Computer Science and Technology">Computer Science and Technology</option>
+      <option value="Electrical Engineering">Electrical Engineering</option>
+      <option value="Electronics and Telecommunication Engineering">Electronics and Telecommunication Engineering</option>
+      <option value="Information Technology">Information Technology</option>
+      <option value="Mechanical Engineering">Mechanical Engineering</option>
+      <option value="Metallurgy and Materials Engineering">Metallurgy and Materials Engineering</option>
+      <option value="Mining Engineering">Mining Engineering</option>
+    </select>
+    
+    <label for="preference3">Preference 3:</label>
+    <select id="preference3" name="preference3" required>
+      <option value="Aerospace Engineering">Aerospace Engineering</option>
+      <option value="Civil Engineering">Civil Engineering</option>
+      <option value="Computer Science and Technology">Computer Science and Technology</option>
+      <option value="Electrical Engineering">Electrical Engineering</option>
+      <option value="Electronics and Telecommunication Engineering">Electronics and Telecommunication Engineering</option>
+      <option value="Information Technology">Information Technology</option>
+      <option value="Mechanical Engineering">Mechanical Engineering</option>
+      <option value="Metallurgy and Materials Engineering">Metallurgy and Materials Engineering</option>
+      <option value="Mining Engineering">Mining Engineering</option>
+    </select>
+    
+    <button type="submit">Submit</button>
+  </form>
+  
+  <div id="result"></div>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
